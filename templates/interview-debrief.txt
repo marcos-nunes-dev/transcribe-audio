@@ -1,0 +1,134 @@
+# Technical Interview Debrief
+
+## General Comments
+
+### Interview Atmosphere
+Provide a general explanation of how the interview went. Describe:
+- Was it conversational, formal, or casual?
+- Was it professional and friendly or tense?
+- Overall tone and flow of the conversation
+
+### Interviewer's Attitude
+Describe the interviewer(s):
+- Name(s) and title(s) if mentioned
+- Their demeanor and approach (positive, engaging, direct, etc.)
+- How they created the environment for the candidate
+
+Example format:
+● The interview was [describe tone/style].
+● The interviewer ([name, title]) maintained a [describe attitude] attitude throughout, creating a [describe environment] environment.
+● The tone was [describe progression of tone].
+
+## Structure of the Interview
+
+List each section of the interview with approximate time spent:
+
+Example format:
+● [Section name] – [Brief description of what was covered]. (≈X min)
+● [Section name] – [Brief description]. (≈X min)
+● [Section name] – [Brief description]. (≈X min)
+
+Common sections might include:
+- Introduction and company overview
+- Candidate background discussion
+- Technical deep dives
+- Coding challenges or exercises
+- Behavioral/situational questions
+- Candidate questions and wrap-up
+
+## Interview Platform
+
+Specify the technical setup:
+- Was it done on the candidate's machine with screen sharing?
+- Was it done on an online platform? Which one? (Zoom, Google Meet, CoderPad, HackerRank, etc.)
+- Any specific tools or environments used during the interview
+
+## Key Points to Hit
+
+**IMPORTANT**: List the critical topics and skills the candidate must demonstrate to succeed in this type of interview.
+
+For each key point, explain:
+- What specific knowledge or skill is required
+- Why the interviewer emphasized it (if evident from the conversation)
+- Examples of questions or discussions that highlight this point
+
+Example format:
+● [Key technical skill/topic] – [Explanation of what the interviewer focused on and why this matters]
+● [Key soft skill/approach] – [How this was assessed and what was emphasized]
+● [Specific technology or methodology] – [What depth of knowledge is expected]
+
+## Live Coding Challenge
+
+**(Only if applicable - if no live coding was done, state "No live coding challenge in this interview" or describe what was mentioned about future coding rounds)**
+
+If a coding challenge was performed or discussed:
+
+### Questions/Exercises
+List the specific problems, tasks, or requirements given:
+- What was the candidate asked to build or solve?
+- What were the acceptance criteria or constraints?
+- Was it algorithmic (LeetCode-style) or practical (build a feature)?
+
+### Required Knowledge
+What technical knowledge and skills are needed to solve the challenge:
+- Specific programming concepts
+- Data structures or algorithms
+- Framework-specific knowledge
+- API integration skills
+- Best practices and patterns
+
+Example format:
+● [Exercise description]
+● [Another requirement or constraint]
+
+Knowledge needed:
+● [Skill/concept required]
+● [Another required skill]
+● [Understanding of specific patterns or practices]
+
+## Tech Questions
+
+List EACH technology or technical topic discussed in the interview. For each one, include:
+- The technology/framework/tool name
+- Specific questions asked about it
+- Technical concepts or practices discussed
+- Depth of knowledge expected
+
+Example format:
+● **[Technology Name]** – [Specific aspects discussed: e.g., component creation, performance optimization, etc.]
+● **[Framework/Tool]** – [What was asked or discussed about it]
+● **[Technical Concept]** – [How it was explored in the interview]
+● **[Development Practice]** – [Questions or discussion around this practice]
+
+Technologies might include:
+- Programming languages (JavaScript, Python, etc.)
+- Frameworks (React, Angular, Node.js, etc.)
+- Tools (Git, Docker, CI/CD, etc.)
+- Methodologies (Agile, TDD, etc.)
+- AI/ML tools (if discussed)
+
+## Situational Questions
+
+List all behavioral, scenario-based, or experience-related questions asked during the interview.
+
+Use direct quotes when possible:
+● "[Exact question asked]"
+● "[Another question]"
+● "[Another behavioral question]"
+
+Common categories:
+- Past project experiences ("Tell me about a time when...")
+- Problem-solving approaches ("How would you handle...")
+- Team collaboration ("How did you work with...")
+- Technical decision-making ("Why did you choose...")
+- Career growth and learning ("What's your perspective on...")
+
+## Next Steps
+
+If mentioned in the interview, document:
+- What comes next in the interview process
+- Timeline for follow-up
+- Additional rounds or assessments
+- Who will be involved in next steps
+- Any preparation recommended for the candidate
+
