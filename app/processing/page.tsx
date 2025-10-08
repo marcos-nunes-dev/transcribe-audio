@@ -1,10 +1,10 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useAppContext } from '@/context/AppContext';
 
-export default function ProcessingPage() {
+function ProcessingContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const jobId = searchParams.get('jobId');
@@ -139,6 +139,20 @@ export default function ProcessingPage() {
         )}
       </div>
     </div>
+  );
+}
+
+export default function ProcessingPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex flex-col items-center justify-center p-8 bg-white">
+        <div className="max-w-2xl w-full text-center">
+          <h1 className="text-4xl font-bold mb-8 text-black">Loading...</h1>
+        </div>
+      </div>
+    }>
+      <ProcessingContent />
+    </Suspense>
   );
 }
 
