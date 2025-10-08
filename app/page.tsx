@@ -42,7 +42,8 @@ export default function HomePage() {
       });
 
       if (!uploadResponse.ok) {
-        throw new Error('Failed to upload file');
+        const errorData = await uploadResponse.json();
+        throw new Error(errorData.error || 'Failed to upload file');
       }
 
       const { upload_url } = await uploadResponse.json();
