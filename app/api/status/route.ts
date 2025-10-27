@@ -21,6 +21,7 @@ export async function GET(request: NextRequest) {
         headers: {
           'authorization': process.env.ASSEMBLYAI_API_KEY!,
         },
+        cache: 'no-store', // Disable caching
       }
     );
 
